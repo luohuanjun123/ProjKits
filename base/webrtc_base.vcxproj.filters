@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="java">
+      <UniqueIdentifier>{8893DBD0-E8C3-4FB7-92BA-0DC892B1A95F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="java\src">
+      <UniqueIdentifier>{C4423F09-4D7D-4DC3-98C8-CA46D9B646FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="java\src\org">
+      <UniqueIdentifier>{25905C41-2639-476C-82CE-22105353459D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="java\src\org\webrtc">
+      <UniqueIdentifier>{9AE004D7-7956-442C-89B1-8925AE41CD91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="java\src\org\webrtc\Logging.java">
+      <Filter>java\src\org\webrtc</Filter>
+    </None>
+    <None Include="base.gyp" />
+    <None Include="base_tests.gyp" />
+    <None Include="bind.h.pump" />
+    <None Include="BUILD.gn" />
+    <None Include="latebindingsymboltable.cc.def" />
+    <None Include="latebindingsymboltable.h.def" />
+    <None Include="OWNERS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arraysize.h" />
+    <ClInclude Include="asyncfile.h" />
+    <ClInclude Include="asynchttprequest.h" />
+    <ClInclude Include="asyncinvoker.h" />
+    <ClInclude Include="asyncinvoker-inl.h" />
+    <ClInclude Include="asyncpacketsocket.h" />
+    <ClInclude Include="asyncresolverinterface.h" />
+    <ClInclude Include="asyncsocket.h" />
+    <ClInclude Include="asynctcpsocket.h" />
+    <ClInclude Include="asyncudpsocket.h" />
+    <ClInclude Include="atomicops.h" />
+    <ClInclude Include="bandwidthsmoother.h" />
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="basicdefs.h" />
+    <ClInclude Include="basictypes.h" />
+    <ClInclude Include="bind.h" />
+    <ClInclude Include="bitbuffer.h" />
+    <ClInclude Include="buffer.h" />
+    <ClInclude Include="bufferqueue.h" />
+    <ClInclude Include="bytebuffer.h" />
+    <ClInclude Include="byteorder.h" />
+    <ClInclude Include="callback.h" />
+    <ClInclude Include="checks.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="constructormagic.h" />
+    <ClInclude Include="crc32.h" />
+    <ClInclude Include="criticalsection.h" />
+    <ClInclude Include="cryptstring.h" />
+    <ClInclude Include="diskcache.h" />
+    <ClInclude Include="diskcache_win32.h" />
+    <ClInclude Include="dscp.h" />
+    <ClInclude Include="event.h" />
+    <ClInclude Include="event_tracer.h" />
+    <ClInclude Include="exp_filter.h" />
+    <ClInclude Include="filerotatingstream.h" />
+    <ClInclude Include="fileutils.h" />
+    <ClInclude Include="flags.h" />
+    <ClInclude Include="format_macros.h" />
+    <ClInclude Include="helpers.h" />
+    <ClInclude Include="ipaddress.h" />
+    <ClInclude Include="linked_ptr.h" />
+    <ClInclude Include="logging.h" />
+    <ClInclude Include="logsinks.h" />
+    <ClInclude Include="mathutils.h" />
+    <ClInclude Include="messagehandler.h" />
+    <ClInclude Include="messagequeue.h" />
+    <ClInclude Include="nethelpers.h" />
+    <ClInclude Include="optionsfile.h" />
+    <ClInclude Include="pathutils.h" />
+    <ClInclude Include="physicalsocketserver.h" />
+    <ClInclude Include="platform_file.h" />
+    <ClInclude Include="platform_thread.h" />
+    <ClInclude Include="profiler.h" />
+    <ClInclude Include="ratelimiter.h" />
+    <ClInclude Include="ratetracker.h" />
+    <ClInclude Include="refcount.h" />
+    <ClInclude Include="referencecountedsingletonfactory.h" />
+    <ClInclude Include="rollingaccumulator.h" />
+    <ClInclude Include="safe_conversions.h" />
+    <ClInclude Include="safe_conversions_impl.h" />
+    <ClInclude Include="scoped_autorelease_pool.h" />
+    <ClInclude Include="scoped_ptr.h" />
+    <ClInclude Include="scoped_ref_ptr.h" />
+    <ClInclude Include="scopedptrcollection.h" />
+    <ClInclude Include="sharedexclusivelock.h" />
+    <ClInclude Include="signalthread.h" />
+    <ClInclude Include="sigslot.h" />
+    <ClInclude Include="sigslotrepeater.h" />
+    <ClInclude Include="sigslottester.h" />
+    <ClInclude Include="socket.h" />
+    <ClInclude Include="socketaddress.h" />
+    <ClInclude Include="socketfactory.h" />
+    <ClInclude Include="socketpool.h" />
+    <ClInclude Include="socketserver.h" />
+    <ClInclude Include="socketstream.h" />
+    <ClInclude Include="stream.h" />
+    <ClInclude Include="stringencode.h" />
+    <ClInclude Include="stringutils.h" />
+    <ClInclude Include="systeminfo.h" />
+    <ClInclude Include="task.h" />
+    <ClInclude Include="taskparent.h" />
+    <ClInclude Include="taskrunner.h" />
+    <ClInclude Include="template_util.h" />
+    <ClInclude Include="thread.h" />
+    <ClInclude Include="thread_annotations.h" />
+    <ClInclude Include="thread_checker.h" />
+    <ClInclude Include="thread_checker_impl.h" />
+    <ClInclude Include="timeutils.h" />
+    <ClInclude Include="timing.h" />
+    <ClInclude Include="trace_event.h" />
+    <ClInclude Include="transformadapter.h" />
+    <ClInclude Include="urlencode.h" />
+    <ClInclude Include="versionparsing.h" />
+    <ClInclude Include="win32.h" />
+    <ClInclude Include="win32filesystem.h" />
+    <ClInclude Include="win32socketinit.h" />
+    <ClInclude Include="win32socketserver.h" />
+    <ClInclude Include="win32window.h" />
+    <ClInclude Include="win32windowpicker.h" />
+    <ClInclude Include="window.h" />
+    <ClInclude Include="windowpicker.h" />
+    <ClInclude Include="windowpickerfactory.h" />
+    <ClInclude Include="winfirewall.h" />
+    <ClInclude Include="winping.h" />
+    <ClInclude Include="worker.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="asyncfile.cc" />
+    <ClCompile Include="asynchttprequest.cc" />
+    <ClCompile Include="asyncinvoker.cc" />
+    <ClCompile Include="asyncpacketsocket.cc" />
+    <ClCompile Include="asyncresolverinterface.cc" />
+    <ClCompile Include="asyncsocket.cc" />
+    <ClCompile Include="asynctcpsocket.cc" />
+    <ClCompile Include="asyncudpsocket.cc" />
+    <ClCompile Include="bandwidthsmoother.cc" />
+    <ClCompile Include="base64.cc" />
+    <ClCompile Include="bitbuffer.cc" />
+    <ClCompile Include="buffer.cc" />
+    <ClCompile Include="bufferqueue.cc" />
+    <ClCompile Include="bytebuffer.cc" />
+    <ClCompile Include="checks.cc" />
+    <ClCompile Include="common.cc" />
+    <ClCompile Include="crc32.cc" />
+    <ClCompile Include="criticalsection.cc" />
+    <ClCompile Include="cryptstring.cc" />
+    <ClCompile Include="diskcache.cc" />
+    <ClCompile Include="diskcache_win32.cc" />
+    <ClCompile Include="event.cc" />
+    <ClCompile Include="event_tracer.cc" />
+    <ClCompile Include="exp_filter.cc" />
+    <ClCompile Include="filerotatingstream.cc" />
+    <ClCompile Include="fileutils.cc" />
+    <ClCompile Include="flags.cc" />
+    <ClCompile Include="helpers.cc" />
+    <ClCompile Include="ipaddress.cc" />
+    <ClCompile Include="logging.cc" />
+    <ClCompile Include="logsinks.cc" />
+    <ClCompile Include="messagehandler.cc" />
+    <ClCompile Include="messagequeue.cc" />
+    <ClCompile Include="nethelpers.cc" />
+    <ClCompile Include="optionsfile.cc" />
+    <ClCompile Include="pathutils.cc" />
+    <ClCompile Include="physicalsocketserver.cc" />
+    <ClCompile Include="platform_file.cc" />
+    <ClCompile Include="platform_thread.cc" />
+    <ClCompile Include="profiler.cc" />
+    <ClCompile Include="ratelimiter.cc" />
+    <ClCompile Include="ratetracker.cc" />
+    <ClCompile Include="sharedexclusivelock.cc" />
+    <ClCompile Include="signalthread.cc" />
+    <ClCompile Include="socketaddress.cc" />
+    <ClCompile Include="socketpool.cc" />
+    <ClCompile Include="socketstream.cc" />
+    <ClCompile Include="stream.cc" />
+    <ClCompile Include="stringencode.cc" />
+    <ClCompile Include="stringutils.cc" />
+    <ClCompile Include="systeminfo.cc" />
+    <ClCompile Include="task.cc" />
+    <ClCompile Include="taskparent.cc" />
+    <ClCompile Include="taskrunner.cc" />
+    <ClCompile Include="thread.cc" />
+    <ClCompile Include="thread_checker_impl.cc" />
+    <ClCompile Include="timeutils.cc" />
+    <ClCompile Include="timing.cc" />
+    <ClCompile Include="transformadapter.cc" />
+    <ClCompile Include="urlencode.cc" />
+    <ClCompile Include="versionparsing.cc" />
+    <ClCompile Include="win32.cc" />
+    <ClCompile Include="win32filesystem.cc" />
+    <ClCompile Include="win32securityerrors.cc" />
+    <ClCompile Include="win32socketinit.cc" />
+    <ClCompile Include="win32socketserver.cc" />
+    <ClCompile Include="win32window.cc" />
+    <ClCompile Include="win32windowpicker.cc" />
+    <ClCompile Include="winfirewall.cc" />
+    <ClCompile Include="winping.cc" />
+    <ClCompile Include="worker.cc" />
+  </ItemGroup>
+</Project>
